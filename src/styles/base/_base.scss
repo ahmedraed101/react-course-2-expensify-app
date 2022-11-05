@@ -1,0 +1,47 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    // background-color: $dark-blue;
+    font-family: Helvetica, sans-serif, Arial, monospace;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+header {
+    background-color: rgb(2, 31, 94);
+    color: white;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: rgb(167, 167, 167);
+}
+
+header ul li a:active {
+    color: rgb(255, 197, 197);
+}
+
+.is-active {
+    font-weight: bold;
+    color: rgb(255, 197, 197);
+}
