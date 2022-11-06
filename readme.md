@@ -1,6 +1,6 @@
 # Git Commands
 
-git init
+git init \n
 git status
 git add
 git commit -m ""
