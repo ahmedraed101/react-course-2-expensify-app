@@ -210,7 +210,7 @@ exports[`should render ExpenseForm with expense data 1`] = `
     <button
       type="submit"
     >
-      Add expense
+      Edit expense
     </button>
   </form>
 </div>
