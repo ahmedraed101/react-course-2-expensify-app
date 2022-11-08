@@ -12,8 +12,8 @@ const ExpenseListItem = ({ id, description, amount, createdAt }) => {
             <p>
                 {formatToDollar(amount)}
                 <br />
-                {moment(createdAt).format('LL')}
-                {/* MMM Do, YYYY = LL */}
+                {moment(createdAt).format('MMM Do, YYYY')}
+                {/* MMM D, YYYY = LL */}
             </p>
         </div>
     )
