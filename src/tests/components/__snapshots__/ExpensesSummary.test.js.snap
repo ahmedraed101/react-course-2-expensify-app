@@ -5,10 +5,9 @@ exports[`should render message for expenses 1`] = `
   <h2>
     Viewing 
     2
-     expense
-    s
-     totalling
      
+    expenses
+     totalling 
     $34.00
   </h2>
 </div>
@@ -19,9 +18,9 @@ exports[`should render message for only one expense 1`] = `
   <h2>
     Viewing 
     1
-     expense
-     totalling
      
+    expense
+     totalling 
     $2.90
   </h2>
 </div>
