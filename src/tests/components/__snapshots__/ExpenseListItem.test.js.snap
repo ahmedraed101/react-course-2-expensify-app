@@ -15,7 +15,7 @@ exports[`should render expense list item with values 1`] = `
   <p>
     $30.00
     <br />
-    January 1, 1970
+    Jan 1st, 1970
   </p>
 </div>
 `;
